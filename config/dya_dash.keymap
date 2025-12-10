@@ -145,12 +145,12 @@
             // | touch1  | touch2  | touch3  | touch 4 |                                   | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&lt 10 TAB        &lt 7 Q       &kp W             &kp E     &kp R        &kp T             &kp Y         &kp U             &kp I     &kp O      &kp P                            &kp MINUS
-&kp CAPS          &kp A         &mt LEFT_SHIFT S  &kp D     &kp F        &kp G             &kp H         &kp J             &kp K     &kp L      &mt LS(RIGHT_CONTROL) SEMICOLON  &mt RIGHT_CONTROL LEFT_BRACKET
-&kp Z             &kp X         &kp C             &kp V     &kp B        &mt LEFT_SHIFT B  &kp SLASH     &kp N             &kp M     &kp COMMA  &kp PERIOD                       &kp QUESTION
-                  &kp LGUI      &kp LWIN          &kp LALT  &lt 2 SPACE  &mkp MB1          &lt 5 ENTER   &kp BACKSPACE     &kp RALT  &kp RWIN
-&lt 10 SPACE      &mkp MB2                                                                 &kp UP        &kp LEFT          &kp DOWN  &kp RIGHT
-&mo TRACKBALL_L2  &mo SCROLL_L  &none             &none                                    &mo SCROLL_L  &mo TRACKBALL_L2  &none     &none
+&lt 10 TAB           &lt 7 Q       &kp W             &kp E     &kp R        &kp T     &kp Y         &kp U             &kp I     &kp O      &kp P                            &kp MINUS
+&kp CAPS             &kp A         &mt LEFT_SHIFT S  &kp D     &kp F        &kp G     &kp H         &kp J             &kp K     &kp L      &mt LS(RIGHT_CONTROL) SEMICOLON  &mt RIGHT_CONTROL LEFT_BRACKET
+&mt LEFT_SHIFT CLCK  &kp Z         &kp X             &kp C     &kp V        &kp B     &kp SLASH     &kp N             &kp M     &kp COMMA  &kp PERIOD                       &kp QUESTION
+                     &kp LGUI      &kp LWIN          &kp LALT  &lt 2 SPACE  &mkp MB1  &lt 5 ENTER   &kp BACKSPACE     &kp RALT  &kp RWIN
+&lt 10 SPACE         &mkp MB2                                                         &kp UP        &kp LEFT          &kp DOWN  &kp RIGHT
+&mo TRACKBALL_L2     &mo SCROLL_L  &none             &none                            &mo SCROLL_L  &mo TRACKBALL_L2  &none     &none
             >;
         };
 
@@ -169,12 +169,12 @@
         mac_default_layer {
             display-name = "Mac Default";
             bindings = <
-&trans      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4    &kp N5          &kp NUMBER_6  &kp N7    &kp N8  &kp N9    &kp N0  &trans
-&lt 5 CLCK  &kp LEFT_ARROW  &kp UP        &kp RIGHT        &trans          &kp LANGUAGE_1  &trans        &mkp MB1  &trans  &mkp MB2  &trans  &trans
-&trans      &kp LEFT        &kp DOWN      &kp RIGHT_ARROW  &kp LANGUAGE_2  &kp LANGUAGE_2  &trans        &trans    &trans  &trans    &trans  &trans
-            &trans          &trans        &trans           &trans          &trans          &trans        &trans    &trans  &trans
-&trans      &trans                                                                         &trans        &trans    &trans  &trans
-&trans      &trans          &trans        &trans                                           &trans        &trans    &trans  &trans
+&trans      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7    &kp N8  &kp N9    &kp N0  &trans
+&lt 5 CLCK  &kp LEFT_ARROW  &kp UP        &kp RIGHT        &trans        &kp LANGUAGE_1  &trans        &mkp MB1  &trans  &mkp MB2  &trans  &trans
+&trans      &kp LEFT        &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2  &trans        &trans    &trans  &trans    &trans  &trans
+            &trans          &trans        &trans           &trans        &trans          &trans        &trans    &trans  &trans
+&trans      &trans                                                                       &trans        &trans    &trans  &trans
+&trans      &trans          &trans        &trans                                         &trans        &trans    &trans  &trans
             >;
         };
 
