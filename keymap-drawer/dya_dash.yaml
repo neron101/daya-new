@@ -25,12 +25,12 @@ layers:
   - L
   - {t: ;, h: Sft+RIGHT CONTROL}
   - {t: '[', h: RIGHT CONTROL}
+  - {t: CLCK, h: LEFT SHIFT}
   - Z
   - X
   - C
   - V
   - B
-  - {t: B, h: LEFT SHIFT}
   - /
   - N
   - M
@@ -149,7 +149,7 @@ layers:
   - ←
   - ↓
   - RIGHT ARROW
-  - LANGUAGE 2
+  - {t: ▽, type: trans}
   - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,10 +168,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -348,10 +348,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
