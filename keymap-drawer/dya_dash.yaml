@@ -149,7 +149,7 @@ layers:
   - ←
   - ↓
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - LANGUAGE 2
   - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
