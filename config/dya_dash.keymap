@@ -149,7 +149,7 @@
 &kp CAPS             &kp A         &mt LEFT_SHIFT S  &kp D     &kp F        &kp G     &kp H         &kp J             &kp K     &kp L      &mt LS(RIGHT_CONTROL) SEMICOLON  &mt RIGHT_CONTROL LEFT_BRACKET
 &mt LEFT_SHIFT CLCK  &kp Z         &kp X             &kp C     &kp V        &kp B     &lt 10 SLASH  &kp N             &kp M     &kp COMMA  &kp PERIOD                       &kp QUESTION
                      &kp LGUI      &kp LWIN          &kp LALT  &lt 2 SPACE  &mkp MB1  &lt 5 ENTER   &kp BACKSPACE     &kp RALT  &kp RWIN
-&lt 10 SPACE         &mkp MB2                                                         &kp UP        &kp LEFT          &kp DOWN  &kp RIGHT
+&mkp MB2             &mkp MB2                                                         &kp UP        &kp LEFT          &kp DOWN  &kp RIGHT
 &mo TRACKBALL_L2     &mo SCROLL_L  &none             &none                            &mo SCROLL_L  &mo TRACKBALL_L2  &none     &none
             >;
         };
