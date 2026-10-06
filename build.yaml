@@ -1,0 +1,34 @@
+include:
+# V1 & V2
+  - artifact: v2_right_trackball
+    board: seeeduino_xiao_ble
+    shield: dya_dash_right
+    snippets:
+      - studio-rpc-usb-uart
+      - right-trackball
+
+  - artifact: v2_right
+    board: seeeduino_xiao_ble
+    shield: dya_dash_right
+    snippets:
+      - studio-rpc-usb-uart
+
+  - artifact: v2_left_trackball
+    board: seeeduino_xiao_ble
+    shield: dya_dash_left
+    snippets:
+      - left-trackball
+
+  - artifact: v2_left
+    board: seeeduino_xiao_ble
+    shield: dya_dash_left
+
+  - artifact: v2_right_reset
+    board: seeeduino_xiao_ble
+    shield: dya_dash_right
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
+
+  - artifact: v2_left_reset
+    board: seeeduino_xiao_ble
+    shield: dya_dash_left
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
