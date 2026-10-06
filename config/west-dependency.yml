@@ -1,0 +1,60 @@
+manifest:
+  version: 1.2
+  defaults:
+    remote: cormoran
+    revision: main
+  remotes:
+    - name: cormoran
+      url-base: https://github.com/cormoran
+  projects:
+    # 各モジュールは ZMK v0.3 互換の版に固定（cormoran本家は2026-05以降 v0.4 へ移行）
+    - name: zmk-west-commands
+      revision: cddf7c26675ecd3f3c4f58d867503a771ce5ad84
+      import: true
+    - name: zmk
+      import:
+        file: app/west.yml
+      clone-depth: 1
+      revision: v0.3-branch+dya
+    - name: zephyr
+      revision: v3.5.0+zmk-fixes+nrf-half-duplex-uart
+      clone-depth: 1
+      import:
+        name-blocklist:
+          - ci-tools
+          - hal_altera
+          - hal_cypress
+          - hal_infineon
+          - hal_microchip
+          - hal_nxp
+          - hal_openisa
+          - hal_silabs
+          - hal_xtensa
+          - hal_st
+          - hal_ti
+          - loramac-node
+          - mcuboot
+          - mcumgr
+          - net-tools
+          - openthread
+          - edtt
+          - trusted-firmware-m
+    - name: zmk-pmw3610-driver
+      revision: 274c92bec8a0e98499ceff653b8b9bd6486effbe
+    - name: zmk-feature-default-layer
+      revision: 3cbde1221825aece7916270643cadcf63ce14122
+    - name: zmk-driver-animation
+      revision: edca851505ae734760c64c57583c189cd30588e9
+    - name: zmk-driver-ext-power-transient
+      revision: 92b00e3acb438df77c374a2f79857a8406c41bed
+    - name: zmk-module-ble-management
+      revision: zmk-v0.3.0.0
+    # - name: zmk-module-battery-history
+    - name: zmk-module-runtime-input-processor
+      revision: zmk-v0.3.0.0
+    - name: zmk-behavior-runtime-sensor-rotate
+      revision: main
+    - name: zmk-module-settings-rpc
+      revision: main
+  self:
+    path: config
