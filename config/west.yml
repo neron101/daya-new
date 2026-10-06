@@ -7,21 +7,27 @@ manifest:
     - name: cormoran
       url-base: https://github.com/cormoran
   projects:
+    # 2026-04-06 時点のコミットに固定（cormoran 本家は 2026-05 以降 ZMK v0.4 へ移行したため）
     - name: zmk
+      revision: 8a44ef109ae301ce084b32dd5fe25200da9e402f
       import:
         file: app/west.yml
         path-prefix: external
       clone-depth: 1
     - name: zmk-pmw3610-driver
+      revision: 274c92bec8a0e98499ceff653b8b9bd6486effbe
       path: external/zmk-pmw3610-driver
       clone-depth: 1
     - name: zmk-feature-default-layer
+      revision: 5e3bf04e519160ac2fb583095b2ec92e9f9f4b1d
       path: external/zmk-feature-default-layer
       clone-depth: 1
     - name: zmk-driver-animation
+      revision: 555f7402bb2b8dc80a0ffac1130a3992513f6f0a
       path: external/zmk-driver-animation
       clone-depth: 1
     - name: zmk-driver-ext-power-transient
+      revision: 2abb53f12071e7c1797f455ba5c4bed35a49cd71
       path: external/zmk-driver-ext-power-transient
       clone-depth: 1
   self:
